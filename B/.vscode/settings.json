@@ -6,6 +6,9 @@
         "ostream": "cpp",
         "set": "cpp",
         "utility": "cpp",
-        "xtree": "cpp"
+        "xtree": "cpp",
+        "cstdlib": "cpp",
+        "cmath": "cpp",
+        "complex": "cpp"
     }
 }
