@@ -22,7 +22,7 @@ int conv(string s)
     int n=s.length();
     for(int i=0;i<n;i++)
     {ans=(ans%M+moduloExpo(2,i)*(s[n-1-i]-'0'))%M;
-    // cout<<ans<<endl;
+    // Debugging-> cout<<ans<<endl;
     }
     return ans%M;
 }
@@ -42,7 +42,7 @@ int main()
     string num;
     for(auto &it:s)
     num+=m[it];
-    // cout<<num<<endl;
+    // Debugging-> cout<<num<<endl;
     int n;
     n=conv(num);
     cout<<n%M<<endl;
