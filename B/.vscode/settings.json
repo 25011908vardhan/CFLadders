@@ -10,6 +10,7 @@
         "cstdlib": "cpp",
         "cmath": "cpp",
         "complex": "cpp",
-        "map": "cpp"
+        "map": "cpp",
+        "unordered_map": "cpp"
     }
 }
