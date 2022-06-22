@@ -4,10 +4,9 @@ typedef long long int lli;
 const int M=1e6+3;
 int moduloExpo(lli x,int y)
 {
-    // cout<<x<<"^"<<y<<"= ";
     int res=1;
-    // if(x==0) return 0;
-    // x%=M;
+    if(x==0) return 0;
+    x%=M;
     while(y)
     {
         if(y%2==1)
@@ -15,7 +14,6 @@ int moduloExpo(lli x,int y)
         x=((x%M)*(x%M))%M;
         y=y>>1;
     }
-    // cout<<res<<endl;
     return (res%M);
 }
 int conv(string s)
