@@ -9,6 +9,7 @@
         "xtree": "cpp",
         "cstdlib": "cpp",
         "cmath": "cpp",
-        "complex": "cpp"
+        "complex": "cpp",
+        "map": "cpp"
     }
 }
